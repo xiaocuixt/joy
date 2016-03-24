@@ -45,6 +45,10 @@ group :development do
   gem 'spring'
 end
 
+gem 'semantic-ui-sass'
+
+#slim语法
+gem 'slim'
 #分页
 gem 'kaminari'
 

@@ -1,0 +1,36 @@
+@import "variables";
+
+header {
+  height: 60px;
+  line-height: 60px;
+  background: $white;
+  border-bottom: solid 1px $header-border;
+  .logo {
+    width: 20%;
+    vertical-align: middle;
+    float: left;
+  }
+  nav {
+    width: 60%;
+    float: left;
+    ul {
+      overflow: hidden;
+      li {
+        width: 10%;
+        float: left;
+        text-align: center;
+        a {
+          display: block;
+        }
+        a:hover, a.active {
+          background: $body-backgroud;
+        }
+      }
+    }
+  }
+  .login {
+    width: 20%;
+    float: right;
+    text-align: right;
+  }
+}

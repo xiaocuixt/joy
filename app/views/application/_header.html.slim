@@ -1,0 +1,12 @@
+header
+  .container
+    .logo = link_to image_tag("logo.png"), root_path
+    nav
+      ul
+        li = link_to "最新","#", class: "item"
+        li = link_to "图片","#", class: "item"
+        li = link_to "短视频","#", class: "item"
+    .login
+      = link_to "登录","#"
+      | &nbsp;|&nbsp;
+      = link_to "注册","#"
