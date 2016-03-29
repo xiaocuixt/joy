@@ -8,8 +8,8 @@
   <%= csrf_meta_tags %>
 </head>
 <body class="<%= controller.controller_path.gsub('/','_') + '_' + controller.action_name %>">
-<%= render "header" %>
-  <div class="wrapper">
+  <%= render "header" %>
+  <div class="container">
     <%= yield %>
   </div>
 </body>
